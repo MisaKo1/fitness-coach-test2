@@ -20,6 +20,7 @@ import { Friend } from "../Friends/Friend";
 import { Program } from "../Programs/Program";
 import { Dish } from "../Dishes/Dish";
 import { AppReview } from "../AppReview/AppReview";
+import  Guide   from "../Guide/Guide";
 
 export function AppRoutes() {
     return (
@@ -45,6 +46,7 @@ export function AppRoutes() {
                 <Route path="/program" element={<Program/>}/>
                 <Route path="/dish" element={<Dish/>}/>
                 <Route path="/appreview" element={<AppReview/>}/>
+                <Route path="/guide" element={<Guide/>}/>
             </Routes>
         </HashRouter>
     )
