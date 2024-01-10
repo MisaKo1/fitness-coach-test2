@@ -20,8 +20,8 @@ import { Friend } from "../Friends/Friend";
 import { Program } from "../Programs/Program";
 import { Dish } from "../Dishes/Dish";
 import { AppReview } from "../AppReview/AppReview";
-import  Guide   from "../Guide/Guide";
-
+import  { Guide }  from "../Guide/Guide";
+ 
 export function AppRoutes() {
     return (
         <HashRouter>

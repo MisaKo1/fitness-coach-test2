@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from 'react';
 import AppBar from "@mui/material/AppBar";
 import ArrowIcon from "@mui/icons-material/ArrowBack";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -23,11 +23,10 @@ const cards = [1, 2, 3, 4, 5, 6];
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
 
-export default function Guide() {
+export function Guide() {
   const handleArrowIconClick = () => {
     console.log("Arrow icon clicked!");
   };
-  const YourComponent = () => {
     const [showDetails, setShowDetails] = React.useState(false);
 
     const handleCardClick = () => {
@@ -125,8 +124,7 @@ export default function Guide() {
       </ThemeProvider>
     );
   };
-}
-/*<Card 
+              /*<Card 
                   sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
                 >
                   <CardMedia
