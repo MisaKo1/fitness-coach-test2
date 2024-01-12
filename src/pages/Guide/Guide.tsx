@@ -104,6 +104,7 @@ export function Guide() {
                     <CardContent sx={{ flexGrow: 1 }}>
                       <Typography gutterBottom variant="h5" component="h2">
                         Get started
+                        <p><button>view</button></p>
                       </Typography>
                       {showDetails && (
                         <Typography>
